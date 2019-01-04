@@ -9,7 +9,7 @@ song
 end
 
 def self.new_by_name
-song = Song.new
+song = Song.new_by_name("name")
 
 end
   def self.all
