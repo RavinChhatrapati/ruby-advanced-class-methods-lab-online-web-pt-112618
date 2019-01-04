@@ -4,6 +4,7 @@ class Song
 def self.create
 song = Song.new
 Song.all.include?(song)
+song
 end
   def self.all
     @@all
