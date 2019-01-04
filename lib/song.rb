@@ -8,8 +8,9 @@ song.save
 song
 end
 
-def self.new_by_name(name)
-    @@all.find{|person| person.name == name}
+def self.new_by_name
+song = Song.new
+
 end
   def self.all
     @@all
